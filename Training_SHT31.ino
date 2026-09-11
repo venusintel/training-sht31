@@ -1,7 +1,7 @@
 #include "TonyS_X1.h"
 #include "TonyS_X1_ExternalModule.h"
 
-Adafruit_SHT31 sht31;
+TonySHT31 sht31;
 
 void setup() {
   Serial.begin(115200);
